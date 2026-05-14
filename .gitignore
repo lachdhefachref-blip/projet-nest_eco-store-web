@@ -10,3 +10,4 @@ migrate-passwords.js
 .vercel
 node_modules/
 dist/
+nest-backend/scratch/

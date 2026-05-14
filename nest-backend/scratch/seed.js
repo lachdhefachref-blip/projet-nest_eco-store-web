@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const MONGO_URI = "mongodb+srv://lachdhefachref_db_user:azertyuiop123@cluster0.vt4fal9.mongodb.net/?appName=Cluster0";
+const MONGO_URI = process.env.MONGO_URI;
 
 const ProductSchema = new mongoose.Schema({
   name: String,
