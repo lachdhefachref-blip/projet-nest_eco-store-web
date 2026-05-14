@@ -2,9 +2,11 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
-    }
-    ,
-    "ignoreDeprecations": "6.0"
-  }
+      "@/*": ["./src/*"]
+    },
+    "jsx": "preserve",
+    "checkJs": true,
+    "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "exclude": ["node_modules"]
 }
