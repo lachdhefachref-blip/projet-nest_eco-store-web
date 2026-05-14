@@ -1,0 +1,12 @@
+**/node_modules/
+**/dist/
+**/.DS_Store
+**/.env
+**/.env.*
+test-stripe.js
+reset-admin.js
+migrate-passwords.js
+*.pdf
+.vercel
+node_modules/
+dist/
